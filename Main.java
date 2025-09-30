@@ -22,7 +22,7 @@ public class Main {
     static final DateTimeFormatter DATA_BR = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 
     public static void main(String[] args) {
-        while (true) {
+        while{
             menu(); // Exibe o menu principal
             String op = SC.nextLine().trim();
             switch (op) {
